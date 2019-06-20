@@ -1,0 +1,39 @@
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  width: 200px;
+  height: 350px;
+  background-size: cover;
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.08);
+}
+
+.card-img{
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  padding-top: 10px;
+}
+
+.container .cards .card h2 {
+  font-weight: 300;
+  font-size: 24px;
+  margin-top: 16px;
+}
+
+.card_social {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgba(0,0,0,0);                         /* White background */
+  padding: 0;                             /* Internal space */                     /* Small radius */
+  width: 300px;        /* Set the width */
+  margin: 0 auto;
+  padding: 24px 0;
+}

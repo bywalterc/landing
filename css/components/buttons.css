@@ -1,0 +1,11 @@
+.btn-cta {
+  color: white;
+  background-color: rgb(100,100,100);
+  padding: 8px 24px;
+  border-radius: 20px;
+  text-shadow: none;
+}
+
+.btn-cta:hover {
+  background-color: rgb(120,120,120);
+}
